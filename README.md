@@ -8,3 +8,4 @@ A rest project that works with the PetrolDrone class
 * extracts all elements 
 * changes the element by id
 
+All classes are checked by plugins (PMD, Checkstyle, Spotbugs)
