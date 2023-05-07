@@ -16,7 +16,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Service
 @Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
 
-public class PetrolDroneService {
+public final class PetrolDroneService {
     private Map<Integer, PetrolDrone> petrolDroneMap = new HashMap<>();
 
     private AtomicInteger availableId = new AtomicInteger();

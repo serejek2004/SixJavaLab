@@ -9,11 +9,10 @@ public final class PetrolDrone extends AbstractDrone {
     private final double consumptionFuel;
     private double currentMaxFlyingDistance;
     private double currentFuelLevel;
-    private Integer Id;
+    private Integer id;
 
-    public Integer setId(int i) {
-        Id = i;
-        return Id;
+    public void setId(final int availableId) {
+        id = availableId;
     }
 
     public PetrolDrone(final double fuelCapacity,

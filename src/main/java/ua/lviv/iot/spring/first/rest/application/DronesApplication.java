@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = "ua.lviv.iot.spring.first.rest")
 @SpringBootApplication
 public class DronesApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(DronesApplication.class, args);
-	}
+    public static void main(final String[] args) {
+        SpringApplication.run(DronesApplication.class, args);
+    }
 }

@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.util.Comparator;
 import java.util.List;
 
-public class DroneWriter {
+public final class DroneWriter {
     public void writeToFile(final List<AbstractDrone> droneList, final String fileName) throws FileNotFoundException {
         PrintWriter printer = new PrintWriter(fileName);
 

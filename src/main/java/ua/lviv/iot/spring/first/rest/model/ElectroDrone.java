@@ -9,11 +9,6 @@ public final class ElectroDrone extends AbstractDrone {
     private double consumptionBattery;
     private double currentBatteryLevel;
     private double currentMaxFlyingDistance;
-    private Integer Id;
-
-    public Integer setId(int i) {
-        return Id;
-    }
 
     public ElectroDrone(final double currentBatteryLevel,
                         final double batteryCapacity,
