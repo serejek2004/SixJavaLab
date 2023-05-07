@@ -1,5 +1,6 @@
 package ua.lviv.iot.spring.first.rest.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 
 @Getter
@@ -60,6 +61,7 @@ public final class PetrolDrone extends AbstractDrone {
                         * formulaNumber;
     }
 
+    @JsonIgnore
     @Override
     public String getHeaders() {
         return super.getHeaders()
